@@ -118,7 +118,7 @@ nav ul li
 .Content img
 {
     height: 37.5rem;
-    width: 37.5rem;
+    width: auto;
 }
 
 .bio

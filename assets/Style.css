@@ -110,7 +110,7 @@ nav ul li
     align-items: center;
     justify-content: center;
     gap: 2.5rem;
-    max-width: 68.75rem;
+    max-width: 60.75rem;
     margin: auto;
 
 }
@@ -118,7 +118,7 @@ nav ul li
 .Content img
 {
     height: 37.5rem;
-    width: auto;
+    width: 40rem;
 }
 
 .bio

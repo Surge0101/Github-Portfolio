@@ -1,1 +1,232 @@
-<h1>start</h1>
+<!DOCTYPE html>
+<html>
+    <title>Personal Portfolio</title>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/Style.css">
+</head>
+
+<body>
+    
+    <nav>
+        <h1>Brandon</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav_link">About</a></li>
+            <li><a href="#skills" class="nav_link">Skills</a></li>
+            <li><a href="#Projetcs" class="nav_link">Projects</a></li>
+            <li><a href="#contact" class="nav_link">Contact</a></li>
+        </ul>
+        <button class="Portfolio-menu" id="Portfolio-menu">
+            <ion-icon class="bars" name="Menu-outline"></ion-icon>
+        </button>
+    </nav>
+    <section class="Content" id= "about";>
+        <img
+            src="assets/wfh_1.svg"
+            alt="Brandon"
+            loading="lazy"
+            class="Backing"
+        />
+        <div class="bio animate_animated animate__shakeX">
+            <h2 class="bio-title">About Me</h2>
+            <p class="bio-text">
+                Hello! Welcome to my first website on the path in development!
+            </p>
+
+        </div>
+    </section>
+    <section class="more-about">
+        <h2>More About Me</h2>
+    <p>
+        I am an ambitious Cyber Security professional that is exploring development with the aim to eventually become Cyber Dev-ops at some point in my career. 
+      </p>
+      <p>
+        With a passion for constant learning I am starting down a path of web-development to further enhance my overall skills. I wish to eventally incorperate my newly aquired skills with some with my already established Cyber seciroty skills 
+      </p>
+      <p>
+        The goal of this website is to learn and share my progress of learning and intergrate and update my website as projects progress. For please enjoy my first step down this path!
+      </p>
+    </section>
+    <script src="" async defer></script>
+
+    <section class="Skills" id="skills">
+        <h2 class="skills-header">My Skills</h2>
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="assets/icons/icons8-html-5.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="assets/icons/icons8-css3.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="assets\icons\python.png"
+                alt="Python"
+                loading="lazy"
+                class="icon icon-card"
+              />
+            </div>
+    <!--
+            <div class="second-set animate__animated animate__pulse">
+              <img
+                src="assets/icons/icons8-bootstrap.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="assets/icons/icons8-react-native.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="assets/icons/icons8-git.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              /> -->
+            </div>
+          </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets\Images\board-361516_1280.jpg"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">TBA</h3>
+          <p class="project-details">
+            The project will be uploaded as they are completed
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets\Images\board-361516_1280.jpg"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">TBA</h3>
+          <p class="project-details">
+            The project will be uploaded as they are completed
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets\Images\board-361516_1280.jpg"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">TBA</h3>
+          <p class="project-details">
+            The project will be uploaded as they are completed
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+  <section class="contact" id="contact">
+    <h2>Get In Touch</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/xleqqpob" method="post">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input
+             type="text"
+             id="name"
+             name="sender-name"
+             placeholder="Enter Your Name"
+             class="input-field"
+             required>
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input
+             type="text"
+             id="name"
+             name="sender-Email"
+             placeholder="Enter Your Email"
+             class="input-field"
+             required>
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea
+             id="message"
+             cols="60"
+             rows="10"
+             name="sender-message"
+             placeholder="Enter Your Message"
+             class="input-field"
+             required
+             ></textarea>
+          </div>
+          <input 
+          type="submit"
+          value="Submit"
+          id="submit-btn"
+          class="submit-btn"
+          />
+        </form>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="socials">
+      
+      <a href="#" target="_blank"
+        ><img
+          src="assets\icons\icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+  </section>
+
+  <i class="scroll-up" id="scroll-up">
+    <img
+    src="assets\icons\icons8-upward-arrow.gif"
+    class="socicon up-arrow"
+    alt="scroll-up">
+    </i>
+    </html>
+    
+</body>
+<footer>
+  <p class="copy">&copy; 2024  </p>
+  <p class="disclaimer" id="disclaimer">This was built based off another I have seen. Please enjoy the first edition and first website created</p>
+  <p class="copy">
+     Built By Brandon Goodman
+</footer>
+
